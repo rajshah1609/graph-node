@@ -30,7 +30,7 @@ services:
       postgres_pass: postgres_pass
       postgres_db: graph-node
       ipfs: "ipfs:5001"
-      ethereum: "xinfin-mainnet:http://https://xdcpayrpc.blocksscan.io/"
+      ethereum: "xinfin-mainnet:https://xdcpayrpc.blocksscan.io/"
       GRAPH_LOG: debug
       ETHEREUM_POLLING_INTERVAL: 5000
       ETHEREUM_ANCESTOR_COUNT: 4
